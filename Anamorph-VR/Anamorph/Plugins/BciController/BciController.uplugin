@@ -1,0 +1,19 @@
+{
+    "FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "0.1",
+	"FriendlyName" : "BCI Controller Plugin",
+	"Description" : "Enables support for OpenVIBE Brain Control Interface",
+	"CreatedBy" : "toby.steele@gmail.com",
+	"Category" : "Input Devices",
+ 
+	"Modules" :
+	[
+		{
+			"Name" : "BciController",
+			"Type" : "RuntimeNoCommandlet",
+			"LoadingPhase" : "PreDefault",
+			"WhitelistPlatforms" : [ "Win64", "Win32" ]
+		}
+	]
+}
